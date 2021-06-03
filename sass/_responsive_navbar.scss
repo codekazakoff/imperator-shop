@@ -21,11 +21,13 @@
         height: 72px !important;
         .navbar-bottom{
             top: 0 !important;
+            box-shadow: none !important;
+            background-color: #fff!important;
             .container{
                 padding : 0 15px;
                 width : 100%!important;
                .navbar_menu{
-                align-items : center !important;
+                // align-items : center !important;
                 .nav_brand{
                   display : none;
                 }
@@ -37,16 +39,79 @@
                     display: block !important;
                     cursor: pointer;
                 }
+                .nav_logo_no_active{
+                    display: none !important
+                }
                 .nav_menu_center{
                     display : none !important;
                 }
                 .nav_menu_right{
+                    margin-left : 10px !important;
                     li{
                         display: none;
                     }
-                    li:last-child{
-                        display: block !important;
+                }
+                .nav_menu_basket{
+                    position : relative;
+                    top: 0;
+                    right: 0;
+                }
+                .toggle_bars_center{
+                    display: block !important;
+                    position: absolute;
+                    top: 72px;
+                    left:0 !important;
+                    margin-left:0 !important; 
+                    justify-content: flex-start !important;
+                    padding-inline-start : 15px !important;
+                    padding: none !important;
+                    li{
+                        border-bottom: none !important;
+                        margin: 20px 0 !important;
+                        &:first-child{
+                            margin-top: 0 !important;
+                        }
+                        &:last-child{
+                            margin-bottom:  0 !important;
+                        }
+                        a{
+                            font-size: 24px !important;
+                            font-weight: bold;
+                        }
                     }
+                }
+                .toggle_bars_right{
+                    display : block !important;
+                    position : absolute ;
+                    top: 300px !important;
+                    left: 0 !important;
+                    padding-inline-start :0 !important;
+                    margin-bottom: 10px !important;
+                    li{
+                        display: block !important;
+                        width : 100%;
+                        &:first-child{
+                            position: absolute !important;
+                            top: 45px;
+                        }
+                        &:last-child{
+                            margin-bottom: 15px !important;
+                            margin-right: 0 !important;
+                        }
+                        .btn{
+                            width:100%;
+                            text-align: center;
+                        }
+                        .btn_outline{
+                            width : 100% !important; 
+                        }
+                    }
+                }
+                .active{
+                    display : block ;
+                }
+                .no_active{
+                    display : none ;
                 }
                }
             }
