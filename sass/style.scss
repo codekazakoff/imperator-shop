@@ -1,7 +1,13 @@
 @import '_virable';
+@import 'navbar';
 
 
+*{
+    box-sizing: border-box;
+}
 
 body{
-    background-color: $yellow;
+    padding : 0;
+    margin: 0;
+    // background-color: $yellow;
 }
