@@ -89,7 +89,8 @@ header .navbar-top {
       header .navbar-top .navbar-bottom .navbar_menu .times {
         display: none; }
 header .container {
-  width: 100%;
+  width: 1220px;
+  padding: 0 25px;
   margin: 0 auto; }
   header .container .navbar_top_nav {
     display: flex;
@@ -110,7 +111,8 @@ header .container {
 @media (min-width: 1202px) {
   .container {
     padding: 0 35px;
-    width: 100% !important; } }
+    width: 1220px !important;
+    position: relative; } }
 @media (min-width: 1009px) and (max-width: 1201px) {
   .container {
     padding: 0 25px;
@@ -193,9 +195,63 @@ header .container {
           display: block; }
         .navbar-top .navbar-bottom .container .navbar_menu .no_active {
           display: none; } }
+main .main_one {
+  width: 100%;
+  height: 788px;
+  background-color: #E1AA00;
+  z-index: 0; }
+  main .main_one .main_section {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1; }
+    main .main_one .main_section .section_back_img {
+      background-image: url("../img/girl-image.svg");
+      height: 788px;
+      width: 512px;
+      z-index: 888;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      right: 25px; }
+    main .main_one .main_section .section_black {
+      width: 100% !important;
+      height: 396px;
+      background-color: #000;
+      z-index: 0; }
+      main .main_one .main_section .section_black .section_text {
+        width: 588px;
+        color: #fff;
+        margin-top: 30px; }
+        main .main_one .main_section .section_black .section_text h1 {
+          font-size: 34px;
+          font-weight: 700;
+          letter-spacing: 0.25px; }
+        main .main_one .main_section .section_black .section_text p {
+          font-size: 14px;
+          font-weight: 500;
+          margin: 16px 24px 0 0; }
+        main .main_one .main_section .section_black .section_text p:last-child {
+          color: #FFC000;
+          font-weight: 600; }
+          main .main_one .main_section .section_black .section_text p:last-child::before {
+            content: url("../img/Polygon 1.png");
+            margin-right: 4px;
+            width: 8px;
+            height: 8px; }
+
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   list-style: none !important; }
 
 body {
