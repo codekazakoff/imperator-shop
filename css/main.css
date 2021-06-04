@@ -89,7 +89,7 @@ header .navbar-top {
       header .navbar-top .navbar-bottom .navbar_menu .times {
         display: none; }
 header .container {
-  width: 1220px;
+  width: 100%;
   padding: 0 25px;
   margin: 0 auto; }
   header .container .navbar_top_nav {
@@ -214,7 +214,7 @@ main .main_one {
     z-index: 1; }
     main .main_one .main_section .section_back_img {
       background-image: url("../img/girl-image.svg");
-      height: 788px;
+      height: 100%;
       width: 512px;
       z-index: 888;
       background-position: center center;
@@ -222,12 +222,15 @@ main .main_one {
       background-size: cover;
       position: absolute;
       top: 0;
-      right: 25px; }
+      right: 0; }
     main .main_one .main_section .section_black {
-      width: 100% !important;
       height: 396px;
       background-color: #000;
-      z-index: 0; }
+      width: 100% !important;
+      z-index: 88;
+      position: absolute;
+      top: 203px;
+      left: 0; }
       main .main_one .main_section .section_black .section_text {
         width: 588px;
         color: #fff;
@@ -248,7 +251,44 @@ main .main_one {
             margin-right: 4px;
             width: 8px;
             height: 8px; }
+    main .main_one .main_section .slider {
+      width: 130px;
+      height: 32px;
+      z-index: 999999;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0;
+      margin: 0; }
+      main .main_one .main_section .slider li {
+        width: 32px;
+        height: 32px;
+        list-style: none;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        main .main_one .main_section .slider li:first-child {
+          border: 1px solid #000; }
+          main .main_one .main_section .slider li:first-child a {
+            opacity: 1 !important; }
+        main .main_one .main_section .slider li a {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: #000;
+          opacity: 0.3; }
 
+@media (min-width: 1009px) and (max-width: 1201px) {
+  .main_one .main_section .section_back_img {
+    height: 100%;
+    width: 512px !important; }
+  .main_one .main_section .section_black .section_text {
+    width: 500px !important; } }
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;

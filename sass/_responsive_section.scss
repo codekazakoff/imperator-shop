@@ -1,3 +1,30 @@
 @media (min-width:1009px) and (max-width:1201px){
-    
+    .main_one {
+       
+        .main_section{
+          
+            .section_back_img{
+                height: 100%;
+                width: 512px !important;
+            }
+            .section_black{
+
+                .section_text{
+                    width: 500px !important;
+                    h1{
+
+                    }
+                    p{
+
+                    }
+                    p:last-child {
+
+                        &::before{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
