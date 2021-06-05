@@ -232,28 +232,26 @@ main .main_one {
       position: absolute;
       top: 203px;
       left: 0; }
-      main .main_one .main_section .section_black .container {
-        padding: 0 55px; }
-        main .main_one .main_section .section_black .container .section_text {
-          width: 588px;
-          color: #fff;
-          margin-top: 30px; }
-          main .main_one .main_section .section_black .container .section_text h1 {
-            font-size: 34px;
-            font-weight: 700;
-            letter-spacing: 0.25px; }
-          main .main_one .main_section .section_black .container .section_text p {
-            font-size: 14px;
-            font-weight: 500;
-            margin: 16px 24px 0 0; }
-          main .main_one .main_section .section_black .container .section_text p:last-child {
-            color: #FFC000;
-            font-weight: 600; }
-            main .main_one .main_section .section_black .container .section_text p:last-child::before {
-              content: url("../img/Polygon 1.png");
-              margin-right: 4px;
-              width: 8px;
-              height: 8px; }
+      main .main_one .main_section .section_black .section_text {
+        width: 588px;
+        color: #fff;
+        margin-top: 30px; }
+        main .main_one .main_section .section_black .section_text h1 {
+          font-size: 34px;
+          font-weight: 700;
+          letter-spacing: 0.25px; }
+        main .main_one .main_section .section_black .section_text p {
+          font-size: 14px;
+          font-weight: 500;
+          margin: 16px 24px 0 0; }
+        main .main_one .main_section .section_black .section_text p:last-child {
+          color: #FFC000;
+          font-weight: 600; }
+          main .main_one .main_section .section_black .section_text p:last-child::before {
+            content: url("../img/Polygon 1.png");
+            margin-right: 4px;
+            width: 8px;
+            height: 8px; }
     main .main_one .main_section .slider_dod {
       position: absolute;
       bottom: 20px;
@@ -387,8 +385,7 @@ main .main_one {
   .mt_after_nav {
     margin-top: 350px !important; } }
 .main_two {
-  background-color: #e5e5e5;
-  margin-bottom: 0; }
+  background-color: #e5e5e5; }
   .main_two .container {
     max-width: 1240px;
     margin: 0 auto !important;
@@ -512,18 +509,7 @@ main .main_one {
 .main_footer_one {
   height: 576px;
   width: 100%;
-  background-color: #e5e5e5;
-  margin-top: -22px;
-  position: relative; }
-  .main_footer_one .main_footer_bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #100029 !important;
-    width: 100%;
-    height: 400px;
-    z-index: 5555555;
-    display: block; }
+  background-color: #ededed; }
 
 * {
   box-sizing: border-box;
@@ -535,4 +521,4 @@ body {
   padding: 0;
   margin: 0; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */
