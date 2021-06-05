@@ -3,11 +3,12 @@
 @import 'responsive_navbar';
 @import 'section';
 @import 'responsive_section';
-
+@import 'section_2';
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     list-style: none !important;
+    user-select: none !important;
 }
 
 body {
