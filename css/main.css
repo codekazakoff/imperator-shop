@@ -556,6 +556,68 @@ main .main_one {
           .main_footer_one .main_footer_bottom .container .main_footer_nav .main_footer_menu img:last-child {
             margin-left: 31px; }
 
+.main_footer_two {
+  background-color: #e5e5e5;
+  padding-bottom: 80px; }
+  .main_footer_two .menu_footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff; }
+    .main_footer_two .menu_footer_nav .img {
+      padding: 0;
+      margin: 0;
+      width: 605px;
+      height: 370px; }
+      .main_footer_two .menu_footer_nav .img img {
+        width: 605px;
+        height: 370px;
+        margin-left: -25px; }
+    .main_footer_two .menu_footer_nav .menu_nav_text {
+      width: 558px;
+      margin-right: 115px; }
+      .main_footer_two .menu_footer_nav .menu_nav_text h1 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 47.4px; }
+      .main_footer_two .menu_footer_nav .menu_nav_text p {
+        font-weight: 400;
+        font-style: 14px;
+        line-height: 22.4px;
+        margin: 24px 0; }
+      .main_footer_two .menu_footer_nav .menu_nav_text .card_btn {
+        text-align: center;
+        background-color: #FFC000;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 8px 0;
+        padding: 8px 16px;
+        border-radius: 6px;
+        display: inline-block;
+        cursor: pointer; }
+  .main_footer_two .main_text_menu {
+    margin-top: 48px;
+    background: #FFC000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    height: 370px; }
+    .main_footer_two .main_text_menu h1 {
+      width: 666px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 47.6px;
+      font-style: normal; }
+      .main_footer_two .main_text_menu h1 span {
+        font-style: normal;
+        font-size: 60px;
+        line-height: 84px;
+        font-weight: 700; }
+
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
