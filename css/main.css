@@ -297,7 +297,7 @@ main .main_one {
         font-size: 30px !important; }
     .main_one .main_section .slider_dod {
       left: 37.5% !important; } }
-@media (max-width: 1008px) {
+@media (min-width: 450px) and (max-width: 1008px) {
   .main_one {
     width: 100% !important;
     height: 500px !important; }
@@ -305,7 +305,7 @@ main .main_one {
       height: 450px !important;
       width: 295px !important;
       top: 50px !important;
-      right: 5% !important; }
+      right: 20px !important; }
     .main_one .slider_dod {
       height: 130px !important;
       width: 34px !important;
@@ -318,7 +318,7 @@ main .main_one {
       background-color: #F2F3F7 !important; }
       .main_one .section_black .section_text {
         margin: 30px 20px !important;
-        width: 95% !important; }
+        width: 92% !important; }
         .main_one .section_black .section_text h1 {
           color: #000 !important;
           font-size: 45px !important;
@@ -328,6 +328,51 @@ main .main_one {
         .main_one .section_black .section_text p {
           color: #000 !important;
           font-size: 20px !important;
+          color: #000 !important;
+          font-weight: 500 !important; }
+          .main_one .section_black .section_text p:last-child::before {
+            content: url("../img/play_black.svg") !important;
+            padding-bottom: 5px !important;
+            width: 16px !important;
+            height: 16px !important; }
+
+  .mt_after_nav {
+    margin-top: 350px !important; } }
+@media (max-width: 450px) {
+  .main_one {
+    width: 100% !important;
+    height: 311px !important; }
+    .main_one .section_back_img {
+      height: 260px !important;
+      width: 170px !important;
+      top: 51px !important;
+      right: 5px !important; }
+    .main_one .slider_dod {
+      height: 100px !important;
+      width: 26px !important;
+      top: 50% !important;
+      left: 20px !important; }
+      .main_one .slider_dod .slider {
+        display: block !important; }
+        .main_one .slider_dod .slider li {
+          width: 25px !important;
+          height: 25px !important; }
+    .main_one .section_black {
+      margin-top: 108px !important;
+      background-color: #F2F3F7 !important;
+      height: 155% !important; }
+      .main_one .section_black .section_text {
+        margin: 30px 0px  0 20px !important;
+        width: 92% !important; }
+        .main_one .section_black .section_text h1 {
+          color: #000 !important;
+          font-size: 32px !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          line-height: 50px !important; }
+        .main_one .section_black .section_text p {
+          color: #000 !important;
+          font-size: 14px !important;
           color: #000 !important;
           font-weight: 500 !important; }
           .main_one .section_black .section_text p:last-child::before {
