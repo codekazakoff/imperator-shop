@@ -68,50 +68,55 @@
 .main_footer_two{
     background-color: #e5e5e5;
     padding-bottom: 80px;
-    .menu_footer_nav{
-        display: flex;
-        justify-content: space-between;
-        align-items:center;
-        flex-wrap: wrap;
-        background-color: #fff;
-        .img{
-            padding : 0;
-            margin: 0;
-            width: 605px;
-            height: 370px;
-            img{
-                width: 605px;
-                height: 370px;
-                margin-left: -25px;
-            }
+
+        .menu_footer_nav{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            flex-wrap: wrap;
+            max-width : 1280px;
+            margin : 0 auto;
+            background-color: #fff;
+            
+                .img{
+                    padding : 0;
+                    margin: 0;
+                    width: 605px;
+                    height: 370px;
+                    img{
+                        width: 605px;
+                        height: 370px;
+                        margin-left: -25px;
+                    }
+                }
+                .menu_nav_text{
+                    width: 558px;
+                    margin-right: 115px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 34px;
+                        line-height: 47.4px;
+                    }
+                    p{
+                        font-weight: 400;
+                        font-style: 14px;
+                        line-height: 22.4px;
+                        margin : 24px 0;
+                    }
+                    .card_btn{
+                        text-align: center;
+                                background-color:$yellow;
+                                font-weight: 600;
+                                font-size: 14px;
+                                margin : 8px 0;
+                                padding: $padding_btn;
+                                border-radius: 3/2 * $border-radius;
+                                display: inline-block;
+                                cursor: pointer;
+                    }
+                }
+            
         }
-        .menu_nav_text{
-            width: 558px;
-            margin-right: 115px;
-            h1{
-                font-weight: 700;
-                font-size: 34px;
-                line-height: 47.4px;
-            }
-            p{
-                font-weight: 400;
-                font-style: 14px;
-                line-height: 22.4px;
-                margin : 24px 0;
-            }
-            .card_btn{
-                text-align: center;
-                        background-color:$yellow;
-                        font-weight: 600;
-                        font-size: 14px;
-                        margin : 8px 0;
-                        padding: $padding_btn;
-                        border-radius: 3/2 * $border-radius;
-                        display: inline-block;
-                        cursor: pointer;
-            }
-        }
-    }
     .main_text_menu{
         margin-top: 48px;;
         background : $yellow;
