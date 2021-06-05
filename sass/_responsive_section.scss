@@ -1,30 +1,83 @@
-@media (min-width:1009px) and (max-width:1201px){
+@import '_virable';
+@media (min-width:1011px) and (max-width:1201px){
     .main_one {
-       
+        height: 658px;
         .main_section{
-          
             .section_back_img{
-                height: 100%;
-                width: 512px !important;
+                height: 100% !important;
+                width: 510px !important;
             }
             .section_black{
-
                 .section_text{
+                   
                     width: 500px !important;
                     h1{
-
+                        font-size: 30px !important;
                     }
-                    p{
+                }
+            }
+            .slider_dod{
+                left : 37.5% !important;
+            }
+        }
+    }
+}
 
-                    }
-                    p:last-child {
+// @media (min-width: 768px) and (max-width: 1010px){
+    
+// }
 
+@media (max-width:1008px){
+    .main_one{
+        width: 100% !important;
+        height : 500px !important; 
+        .section_back_img{
+            height: 450px !important;
+            width: 295px !important;
+            top: 50px !important;
+            right : 5% !important;
+        }
+        .slider_dod{
+            height : 130px !important;
+            width : 34px !important;
+            top: 50% !important;
+            left : 20px !important;
+            .slider{
+                display: block !important;
+            }
+        }
+        .section_black{
+            margin-top:  296px !important;
+            background-color: #F2F3F7 !important;
+            .section_text{
+                margin:30px 20px !important;
+                width: 95% !important;
+                h1{
+                    color: #000!important;
+                    font-size: 45px !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    line-height: 50px !important;
+                    // height: 30px !important;
+                }
+                p{
+                    color: #000 !important;
+                    font-size: 20px !important;
+                    color : #000 !important;
+                    font-weight: 500 !important;
+                    &:last-child{
                         &::before{
-
+                            content: url('../img/play_black.svg') !important;
+                            padding-bottom: 5px !important;
+                            width : 16px !important;
+                            height : 16px !important;
                         }
                     }
                 }
             }
         }
+    }
+    .mt_after_nav{
+        margin-top: 350px !important;
     }
 }

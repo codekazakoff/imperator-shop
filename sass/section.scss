@@ -67,40 +67,43 @@ main {
                     }
                 }
             }
-            .slider{
-                width: 130px;
-                height: 32px;
-                z-index: 999999;
+            .slider_dod{
                 position: absolute;
                 bottom:0;
                 left: 50%;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                padding: 0;
-                margin: 0;
-                li{
-                    width: 32px;
+                z-index: 5555;
+                margin : 0 auto;
+                .slider{
+                    padding: 0;
+                    margin: 0;
+                    width: 130px;
                     height: 32px;
-                    list-style: none;
-                    border-radius: 50%;
-                    display : flex;
-                    justify-content: center;
+                    display: flex;
+                    justify-content: flex-start;
                     align-items: center;
-                    cursor: pointer;
-                    &:first-child{
-                        border: 1px solid #000;
-                        a{
-                            opacity: 1!important;
-                        }
-                    }
-                    a{
-                        width: 8px;
-                        height: 8px;
+                    li{
+                        width: 32px;
+                        height: 32px;
+                        list-style: none;
                         border-radius: 50%;
-                        background-color: #000;
-                        opacity: 0.3;
-                      
+                        display : flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        &:first-child{
+                            border: 1px solid #000;
+                            a{
+                                opacity: 1!important;
+                            }
+                        }
+                        a{
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background-color: #000;
+                            opacity: 0.3;
+                          
+                        }
                     }
                 }
             }

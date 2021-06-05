@@ -4,6 +4,7 @@ let navMenuCenter = document.querySelector('.nav_menu_center');
 let navMenuRight = document.querySelector('.nav_menu_right');
 let times = document.querySelector('.times');
 let basket = document.querySelector('.basket');
+let section_top = document.querySelector('.main_one');
 hamburger.addEventListener('click', function(){
     navMenuCenter.classList.add('toggle_bars_center');
     navMenuRight.classList.add('toggle_bars_right');
@@ -11,6 +12,7 @@ hamburger.addEventListener('click', function(){
     basket.classList.add('no_active');
     hamburger.classList.add('nav_logo_no_active');
     logo.classList.add('nav_logo_no_active');
+    section_top.classList.add('mt_after_nav');
 })
 times.addEventListener('click', function(){
     navMenuCenter.classList.remove('toggle_bars_center');
@@ -19,4 +21,5 @@ times.addEventListener('click', function(){
     basket.classList.remove('no_active');
     hamburger.classList.remove('nav_logo_no_active');
     logo.classList.remove('nav_logo_no_active');
+    section_top.classList.remove('mt_after_nav');
 })

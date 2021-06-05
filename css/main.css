@@ -251,44 +251,93 @@ main .main_one {
             margin-right: 4px;
             width: 8px;
             height: 8px; }
-    main .main_one .main_section .slider {
-      width: 130px;
-      height: 32px;
-      z-index: 999999;
+    main .main_one .main_section .slider_dod {
       position: absolute;
       bottom: 0;
       left: 50%;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      padding: 0;
-      margin: 0; }
-      main .main_one .main_section .slider li {
-        width: 32px;
+      z-index: 5555;
+      margin: 0 auto; }
+      main .main_one .main_section .slider_dod .slider {
+        padding: 0;
+        margin: 0;
+        width: 130px;
         height: 32px;
-        list-style: none;
-        border-radius: 50%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer; }
-        main .main_one .main_section .slider li:first-child {
-          border: 1px solid #000; }
-          main .main_one .main_section .slider li:first-child a {
-            opacity: 1 !important; }
-        main .main_one .main_section .slider li a {
-          width: 8px;
-          height: 8px;
+        justify-content: flex-start;
+        align-items: center; }
+        main .main_one .main_section .slider_dod .slider li {
+          width: 32px;
+          height: 32px;
+          list-style: none;
           border-radius: 50%;
-          background-color: #000;
-          opacity: 0.3; }
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer; }
+          main .main_one .main_section .slider_dod .slider li:first-child {
+            border: 1px solid #000; }
+            main .main_one .main_section .slider_dod .slider li:first-child a {
+              opacity: 1 !important; }
+          main .main_one .main_section .slider_dod .slider li a {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #000;
+            opacity: 0.3; }
 
-@media (min-width: 1009px) and (max-width: 1201px) {
-  .main_one .main_section .section_back_img {
-    height: 100%;
-    width: 512px !important; }
-  .main_one .main_section .section_black .section_text {
-    width: 500px !important; } }
+@media (min-width: 1011px) and (max-width: 1201px) {
+  .main_one {
+    height: 658px; }
+    .main_one .main_section .section_back_img {
+      height: 100% !important;
+      width: 510px !important; }
+    .main_one .main_section .section_black .section_text {
+      width: 500px !important; }
+      .main_one .main_section .section_black .section_text h1 {
+        font-size: 30px !important; }
+    .main_one .main_section .slider_dod {
+      left: 37.5% !important; } }
+@media (max-width: 1008px) {
+  .main_one {
+    width: 100% !important;
+    height: 500px !important; }
+    .main_one .section_back_img {
+      height: 450px !important;
+      width: 295px !important;
+      top: 50px !important;
+      right: 5% !important; }
+    .main_one .slider_dod {
+      height: 130px !important;
+      width: 34px !important;
+      top: 50% !important;
+      left: 20px !important; }
+      .main_one .slider_dod .slider {
+        display: block !important; }
+    .main_one .section_black {
+      margin-top: 296px !important;
+      background-color: #F2F3F7 !important; }
+      .main_one .section_black .section_text {
+        margin: 30px 20px !important;
+        width: 95% !important; }
+        .main_one .section_black .section_text h1 {
+          color: #000 !important;
+          font-size: 45px !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          line-height: 50px !important; }
+        .main_one .section_black .section_text p {
+          color: #000 !important;
+          font-size: 20px !important;
+          color: #000 !important;
+          font-weight: 500 !important; }
+          .main_one .section_black .section_text p:last-child::before {
+            content: url("../img/play_black.svg") !important;
+            padding-bottom: 5px !important;
+            width: 16px !important;
+            height: 16px !important; }
+
+  .mt_after_nav {
+    margin-top: 350px !important; } }
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
