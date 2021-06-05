@@ -387,9 +387,9 @@ main .main_one {
 .main_two {
   background-color: #e5e5e5; }
   .main_two .container {
-    width: 1220px !important;
+    max-width: 1240px;
     margin: 0 auto !important;
-    padding: 30px; }
+    padding: 20px; }
     .main_two .container .main_two_header {
       padding: 88px 0 24px 0; }
       .main_two .container .main_two_header h1 {
@@ -472,9 +472,9 @@ main .main_one {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 264px; }
+      flex-wrap: wrap; }
       .main_two .container .main_two_cards_ .card_img_ {
-        margin: 20px;
+        margin: 20px 10px;
         position: relative;
         text-align: center;
         cursor: pointer; }
@@ -488,8 +488,8 @@ main .main_one {
           align-items: center;
           text-align: center;
           margin: auto;
-          width: 264px;
-          height: 72px;
+          width: 100%;
+          height: 78px;
           background: #0D0D0D;
           color: #FFC000;
           border-radius: 0 0 8px 8px;
