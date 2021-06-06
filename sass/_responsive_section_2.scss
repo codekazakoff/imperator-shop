@@ -1,0 +1,162 @@
+@import '_virable';
+
+
+
+
+@media (min-width:563px) and (max-width:1008px) {
+    .main_two {
+        .container {
+            .header_one{
+                margin-top: 350px;
+            }
+            .main_two_box {
+                @include d-flex(flex, space-evenly, center);
+                .box {
+                    width: 279px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:562px){
+    .main_two {
+        .container {
+            .header_one{
+                margin-top: 460px;
+            }
+            .main_two_box {
+                @include d-flex(flex, space-evenly, center);
+                .box {
+                    width: 400px;
+                    height: 220px;
+                    img{
+                        margin-top: 26px;
+                        width:38px;
+                        height: 38px;
+                    }
+                    p{
+                        margin-top: 65px;
+                        font-size: 22px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1009px) and (max-width:1201px) {
+    .main_two {
+        .container {
+            .main_two_cards {
+                @include d-flex(flex, space-evenly, center);
+                .card {
+                    margin : 20px;
+                    width: 340px !important;
+                    border-radius: 16px 16px 0 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:563px) and (max-width:1008px) {
+    .main_two {
+        .container {
+            .main_two_cards {
+                @include d-flex(flex, space-evenly, center);
+                .card {
+                    margin : 20px;
+                    width: 255px !important;
+                    .card-body{
+                        p{
+                            font-size: 8px !important;
+                        }
+                    }
+                    .card_btn{
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:563px){
+    .main_two {
+        .container {
+            .main_two_header{
+                h1{
+                    font-size: 25px !important;
+                    margin-top: 20px !important;
+                }
+            }
+            .main_two_cards {
+                @include d-flex(flex, space-evenly, center);
+                .card {
+                    margin : 20px;
+                    width: 340px !important;
+                    border-radius: 18px 18px !important;
+                    .card-body{
+                        p{
+                            font-size: 8px !important;
+                        }
+                    }
+                    .card_btn{
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1009px) and (max-width:1201px) {
+    .main_two {
+        .container {
+            .main_two_cards_ {
+                @include d-flex(flex, space-evenly, center);
+                    .card_img_{
+                        width: 360px !important;
+                    }
+                margin-bottom: 250px;
+            }
+        }
+    }
+}
+
+@media (min-width:563px) and (max-width:1008px) {
+    .main_two {
+        .container {
+            .main_two_cards_ {
+                @include d-flex(flex, space-evenly, center);
+                    .card_img_{
+                        width: 278px !important;
+                    }
+                margin-bottom: 250px;
+            }
+        }
+    }
+}
+
+@media (max-width:563px){
+    .main_two {
+        .container {
+            .main_two_cards_ {
+                @include d-flex(flex, space-evenly, center);
+                    .card_img_{
+                        width: 400px !important;
+
+                        &::after{
+                            bottom : 2px !important;
+                            height : 100px !important;
+                        }
+                        &:first-child::after{
+                            bottom : 25px !important;
+                            height : 100px !important;
+                        }
+                    }
+                margin-bottom: 340px;
+            }
+        }
+    }
+}

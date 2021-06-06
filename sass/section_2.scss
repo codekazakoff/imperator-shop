@@ -1,5 +1,7 @@
 @import '_virable';
-
+.two_main{
+    padding-bottom: 50px !important;
+}
 .main_two{
     background-color: #e5e5e5;
     margin-bottom: 0;
@@ -45,20 +47,20 @@
 
             .card{
                 width:264px; 
-                // height:522px;
-                border-radius:3 * $border-radius;
+                border-radius:14px 14px;
                 box-shadow: 0px 0px 98px rgba(0, 0, 0, 0.05);
                 background-color: #fff;
-                margin : 20px 0;
-                // padding-bottom: 16px;
+                
                 .card_img{
-                    width:264px;
-                    height: 337px;
-                    border-radius: 12px 12px 0 0;
+                    width:100% !important;
+                    border-radius: 14px 14px 0 0;
+                    img{
+                        width: 100%;
+                        border-radius: 14px 14px 0 0;
+                    }
                 }
                 .card_body{
-                    width:264px;
-                    // height:185px;
+                    width:100%;
                     border-radius: 0 0 12px 12px;
                     padding: 0 12px 0 13px;
 
@@ -95,10 +97,13 @@
                         margin : 8px 0;
                         padding: $padding_btn;
                         border-radius: 2 * $border-radius;
+                        cursor: pointer;
                     }
                 }
             }
         }
+      
+
         .finally{
             margin-top: -24px;
             h1{
@@ -109,17 +114,22 @@
         .main_two_cards_{
             @include d-flex(flex,space-between,center);
             flex-wrap: wrap;
+           
             
-         
             .card_img_{
+                // width : 100%;
                 margin: 20px 10px;
                 position: relative;
                 text-align: center;
                 cursor: pointer;
+                width : 270px;
+                img{
+                    width :100%;
+                }
                 &::after{
                     content:"Женская обувь";
                     position: absolute;
-                    bottom:0;
+                    bottom:10px;
                     left:0;
                     @include d-flex(flex,center,center);
                     text-align: center;
@@ -132,7 +142,7 @@
                     font-weight: 700;
                     font-size: 24px;
                     transition: .5s all linear;                    
-                    transform : translateY(22px);
+                    transform : translateY(10px);
                     opacity: 0;
                 }
                 &:hover::after{
