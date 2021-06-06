@@ -12,6 +12,9 @@
             .main_two_box {
                 @include d-flex(flex, space-evenly, center);
                 .box {
+                    &:nth-child(2){
+                        margin : 0 !important;
+                    }
                     width: 279px;
                 }
             }
@@ -30,6 +33,9 @@
                 .box {
                     width: 400px;
                     height: 220px;
+                    &:nth-child(2){
+                        margin : 0 !important;
+                    }
                     img{
                         margin-top: 26px;
                         width:38px;
@@ -95,12 +101,13 @@
                 @include d-flex(flex, space-evenly, center);
                 .card {
                     margin : 20px;
-                    width: 340px !important;
+                    width: 400px !important;
                     border-radius: 18px 18px !important;
-                    .card-body{
+                    .card_body{
                         p{
                             font-size: 8px !important;
                         }
+                    }
                     }
                     .card_btn{
                         font-size: 10px !important;
@@ -109,7 +116,7 @@
             }
         }
     }
-}
+
 @media (min-width:1009px) and (max-width:1201px) {
     .main_two {
         .container {
@@ -148,14 +155,16 @@
 
                         &::after{
                             bottom : 2px !important;
-                            height : 100px !important;
+                            font-size: 16px !important;
+                            height : 56px !important;
                         }
                         &:first-child::after{
                             bottom : 25px !important;
-                            height : 100px !important;
+                            font-size: 16px !important;
+                            height : 56px!important;
                         }
                     }
-                margin-bottom: 340px;
+                margin-bottom: 640px;
             }
         }
     }
