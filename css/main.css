@@ -1288,4 +1288,14 @@ footer .footer .container .footer_menu .menu_right .right_two .category li a, fo
   font-size: 14px;
 }
 
+@media (max-width: 620px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .left_two {
+    margin-left: 0 !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
