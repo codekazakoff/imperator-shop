@@ -15,9 +15,7 @@ main {
             width: 100%;
             margin : 0 auto;
             height: 100%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            @include d-flex(flex,flex-start,center);
             z-index: 1;
             .section_back_img{
                 background-image: url('../img/girl-image.svg');
@@ -80,17 +78,13 @@ main {
                     margin: 0;
                     width: 130px;
                     height: 32px;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
+                    @include d-flex(flex,flex-start,center);
                     li{
                         width: 32px;
                         height: 32px;
                         list-style: none;
                         border-radius: 50%;
-                        display : flex;
-                        justify-content: center;
-                        align-items: center;
+                        @include d-flex(flex,center,center);
                         cursor: pointer;
                         &:first-child{
                             border: 1px solid #000;

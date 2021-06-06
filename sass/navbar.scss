@@ -18,14 +18,10 @@ header{
             box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
 
             .navbar_menu{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                // margin-top:1px;
+                @include d-flex(flex,space-between,center);
+                
                 .navbar_menu_left{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    @include d-flex(flex,space-between,center);
                     .bars_icon{
                         display: none;
                         width:28px;
@@ -35,9 +31,7 @@ header{
                         }
                     }
                     .nav_menu_center{
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
+                        @include d-flex(flex,space-between,center);
                         margin-left: 80px;
                         padding-top: 8px;
                         li{
@@ -72,9 +66,7 @@ header{
                     }
                 }
                 .nav_menu_right{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    @include d-flex(flex,space-between,center);
                     .nav_menu_basket{
                        li{
                         list-style: none !important;
@@ -95,10 +87,10 @@ header{
                     .btn{
                         border-radius: $border-radius;
                         padding : $padding_btn;
+                        display : inline-block;
                         text-align: center;
                         font-style: normal;
                         font-size: 16px;
-                        display : inline-block;
                     }
                     .btn_outline{
                         background-color: $grey;
@@ -126,9 +118,7 @@ header{
         padding: 0 25px;
         margin: 0 auto;
         .navbar_top_nav{
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
+            @include d-flex(flex,flex-start,center);
             p{
                 color: #fff;
                 font-size: 10px;

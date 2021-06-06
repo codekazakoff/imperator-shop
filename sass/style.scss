@@ -1,13 +1,3 @@
-@import '_virable';
-@import 'navbar';
-@import 'responsive_navbar';
-@import 'section';
-@import 'responsive_section';
-@import 'section_2';
-@import 'section2_respon';
-@import 'section_footer1';
-@import 'section_footer1_res';
-@import 'footer';
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -19,3 +9,15 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
+@import '_virable';
+@import 'navbar';
+@import 'responsive_navbar';
+@import 'section';
+@import 'responsive_section';
+@import 'section_2';
+@import 'section2_respon';
+@import 'section_footer1';
+@import 'section_footer1_res';
+@import 'footer';

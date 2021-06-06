@@ -24,9 +24,7 @@
             margin: 0 auto !important;
             // border: 1px solid #eee;
             .main_footer_nav{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+                @include d-flex(flex,space-between,center);
                 flex-wrap:  wrap;
                 margin : 20px 0 ;
 
@@ -70,9 +68,7 @@
     padding-bottom: 80px;
 
         .menu_footer_nav{
-            display: flex;
-            justify-content: space-between;
-            align-items:center;
+            @include d-flex(flex,space-between,center);
             flex-wrap: wrap;
             max-width : 1280px;
             margin : 0 auto;
@@ -110,7 +106,7 @@
                                 font-size: 14px;
                                 margin : 8px 0;
                                 padding: $padding_btn;
-                                border-radius: 3/2 * $border-radius;
+                                border-radius: 2 * $border-radius;
                                 display: inline-block;
                                 cursor: pointer;
                     }
@@ -120,9 +116,7 @@
     .main_text_menu{
         margin-top: 48px;;
         background : $yellow;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include d-flex(flex,center,center);
         color: #000;
         height: 370px;
         h1{

@@ -7,4 +7,10 @@ $transition : 0.3s linear;
 
 $border-radius : 4px;
 $padding_btn : 8px 16px;
-$kulrang :  #100029
+$kulrang :  #100029;
+
+@mixin d-flex($display,$jus-cont,$align-i) {
+    display : $display;
+    justify-content : $jus-cont;
+    align-items: $align-i;
+}
