@@ -14,6 +14,7 @@
                 .box {
                     &:nth-child(2){
                         margin : 0 !important;
+                        margin-top: 20px !important;
                     }
                     width: 279px;
                 }
@@ -35,6 +36,7 @@
                     height: 220px;
                     &:nth-child(2){
                         margin : 0 !important;
+                        margin-top: 20px !important;
                     }
                     img{
                         margin-top: 26px;
