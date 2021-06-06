@@ -675,8 +675,7 @@ main .main_one .main_section .slider_dod .slider li a {
     width: 279px;
   }
   .main_two .container .main_two_box .box:nth-child(2) {
-    margin: 0 !important;
-    margin-top: 20px !important;
+    margin: 20px 0 !important;
   }
 }
 @media (max-width: 562px) {
@@ -693,8 +692,7 @@ main .main_one .main_section .slider_dod .slider li a {
     height: 220px;
   }
   .main_two .container .main_two_box .box:nth-child(2) {
-    margin: 0 !important;
-    margin-top: 20px !important;
+    margin: 20px 0 !important;
   }
   .main_two .container .main_two_box .box img {
     margin-top: 26px;

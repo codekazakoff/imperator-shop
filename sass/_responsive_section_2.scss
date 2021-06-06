@@ -13,8 +13,7 @@
                 @include d-flex(flex, space-evenly, center);
                 .box {
                     &:nth-child(2){
-                        margin : 0 !important;
-                        margin-top: 20px !important;
+                        margin : 20px  0 !important;
                     }
                     width: 279px;
                 }
@@ -35,8 +34,7 @@
                     width: 400px;
                     height: 220px;
                     &:nth-child(2){
-                        margin : 0 !important;
-                        margin-top: 20px !important;
+                        margin :  20px 0 !important;
                     }
                     img{
                         margin-top: 26px;
