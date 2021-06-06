@@ -1,0 +1,90 @@
+@import '_virable';
+@media (min-width:963px) and (max-width:1201px) {
+    .main_footer_one{
+        .main_footer_bottom{
+            .container{
+                .main_footer_nav{
+                    .main_footer_back_img{
+                        margin-left: -10px;
+                        width: 370px;
+                        height: 490px;
+                    }
+                    .main_footer_menu{
+                        width: 600px;
+                        h1{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:690px) and (max-width:962px) {
+    .main_footer_one{
+        .main_footer_bottom{
+            .container{
+                .main_footer_nav{
+                    @include d-flex(flex,flex-start,center);
+                    .main_footer_back_img{
+                        width: 290px;
+                        height: 300px;
+                        margin-top: -250px;
+                    }
+                    .main_footer_menu{
+                        padding : 0 25px;
+                        width: 400px;
+                        margin-top: 50px;
+                        margin: 0 auto;
+                        h1{
+                            font-size: 24px;
+                            line-height: 35px !important;
+                            margin-top: 18px;
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 19px;
+                        }
+                        img{
+                            width: 100px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:563px) {
+    .main_footer_one{
+        .main_footer_bottom{
+            .container{
+                .main_footer_nav{
+                    @include d-flex(block,flex-start,center);
+                    .main_footer_back_img{
+                       width: 300px;
+                       height: 420px;
+                      
+                    }
+                    .main_footer_menu{
+                        padding : 0 25px;
+                        width: 660px;
+                        margin-top: 50px;
+                        margin: 0 auto;
+                        h1{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
