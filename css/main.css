@@ -918,7 +918,7 @@ main .main_one .main_section .slider_dod .slider li a {
   height: 370px;
 }
 .main_footer_two .main_text_menu h1 {
-  width: 666px;
+  max-width: 666px;
   margin: 0 auto;
   text-align: center;
   font-size: 34px;
@@ -1112,20 +1112,16 @@ main .main_one .main_section .slider_dod .slider li a {
     font-size: 22px !important;
   }
 
+  .main_text_menu {
+    padding: 0 25px !important;
+  }
   .main_text_menu h1 {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
     font-size: 30px !important;
-    font-weight: 700;
     line-height: 42.6px !important;
-    font-style: normal;
   }
   .main_text_menu h1 span {
-    font-style: normal;
     font-size: 50px !important;
     line-height: 70px !important;
-    font-weight: 700;
   }
 }
 @media (max-width: 620px) {
@@ -1171,11 +1167,23 @@ main .main_one .main_section .slider_dod .slider li a {
     padding: 16px 8px !important;
     font-size: 10px !important;
   }
+
+  .main_text_menu {
+    height: 250px !important;
+    padding: 0 25px !important;
+  }
+  .main_text_menu h1 {
+    font-size: 20px !important;
+    line-height: 35.6px !important;
+  }
+  .main_text_menu h1 span {
+    font-size: 30px !important;
+    line-height: 55px !important;
+  }
 }
 footer {
   width: 100%;
   max-height: 323px;
-  border: 1px solid red;
 }
 footer .footer {
   width: 100%;
